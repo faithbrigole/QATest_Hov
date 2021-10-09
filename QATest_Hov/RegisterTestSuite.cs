@@ -5,7 +5,6 @@ using System.Threading;
 
 namespace QATest_Hov
 {
-	[Parallelizable]
 	class RegisterTestSuite : TestBase
 	{
 
