@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 
 namespace QATest_Hov
 {
-	[Parallelizable]
 	class SigninTestSuite : TestBase
 	{
 
