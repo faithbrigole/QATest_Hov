@@ -2,9 +2,7 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-
-
-[assembly: LevelOfParallelism(4)]                                                               //In just one run the 4 test will execute to run
+                                                             //In just one run the 4 test will execute to run
 namespace QATest_Hov
 {
 	class TestBase
