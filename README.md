@@ -18,9 +18,6 @@ Candidates are expected to do the following:
 
 ## Installation
 **Clone the git repo**
-```link
-gh repo clone faithbrigole/QATest_Hov
-```
 
 **Install Visual Studio, .NET Core & the packages**
 * Install Visual Studio
