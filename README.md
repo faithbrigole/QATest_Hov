@@ -40,12 +40,11 @@ gh repo clone faithbrigole/QATest_Hov
 
 ## About the automation
 ### **Code explanation:**
-I created five (5) class for this project. 
+I created four (4) class for this project. 
   - TestBase.cs
   - BasicActions.cs
   - RegisterTestSuite.cs
   - SigninTestSuite.cs
-  - NadaAPI.cs
   
  #### TestBase.cs
  This is where I put the drivers. For this project I only put the chromedriver because there is no cross browser testing on the instruction. I also created *LevelOfParallelism* so that there's more than one program that can be executed simultaneously, depending on the number of parallelism you put. For this project I only put 4. This also calls the BasicAction.cs that calls the URL of this project.
@@ -58,13 +57,6 @@ I created five (5) class for this project.
  
  #### SignintestSuite.cs
  Same with RegisterTestsuite.
- 
- #### NadaAPI.cs
- Honestly, this one is a failed test. I actually want to create an API testing to verify the email using Nada temp mail. I'm having a hard time getting the email content. And to be honest I have a limited knowledge on JSON API. I didn't delete this class because I'm considering on creating automation testing for email confirmation/verification and also I'm hoping that I'll find a solution to this problem and **hopefully** I can update this one.
- 
- 
- ## Issues
- Only the API Testing but overall the test works fine.
  
  
 
